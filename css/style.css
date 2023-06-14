@@ -114,7 +114,7 @@ section div p{
 @media (max-width: 800px){
  
     .box{
-        height: 25%;
+        height: 30%;
         width: 90%;
     }
 
@@ -126,6 +126,15 @@ section div p{
         left: 5%;
         width: 90%;
     }
+
+    /* Estilo personalizado para o input search */
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration {
+        display: none;
+}
+
 }
 
 
