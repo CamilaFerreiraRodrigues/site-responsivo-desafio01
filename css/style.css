@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.headering{
+    height: 25%;
+    width: 100%;
+    background: linear-gradient( 88.27deg, #574AE8 0%, #3EA1DB)
+}
+
+.search-div{
+    position: absolute;
+    height: 6%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 12vh;
+    background: rgba(255, 255, 255, 0.2) ;
+    border-radius: 5px;
+}
+
+.div-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    position: relative;
+    top: 30%;
+    left: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+#search-input{
+    position: absolute;
+    background: none;
+    border: none;
+    outline: none;
+    width: 92%;
+    padding: 5px;
+    top: 8px;
+    left: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.photo-lupa{
+    height: 38%;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.body-conteudo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #f3f5f7;
+}
+
+#div1{
+    margin-top: 40px;
+}
+
+.box{
+    
+    background-color: #ffffff;
+    height: 25%;
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto 10px auto;
+    overflow: hidden;
+}
+
+.head-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: #717171;
+}
+
+.heart{
+    height: 12px;
+}
+
+section div h1{
+    color: #1A202C;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    font-weight: 400px;
+    color: #1A202C;
+}
+
+
+section div p{
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    font-weight: 400px;
+    font-style: normal;
+    color: #717171;
+}
+@media (max-width: 800px){
+ 
+    .box{
+        height: 25%;
+        width: 90%;
+    }
+
+    .search-div{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .div-heading{
+        left: 5%;
+        width: 90%;
+    }
+}
+
+
+
